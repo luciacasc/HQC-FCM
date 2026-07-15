@@ -264,10 +264,7 @@ directory, so it does not require pre-generating `data/generated/` by hand.
 If you use this software, please cite it — see [`CITATION.cff`](CITATION.cff)
 (GitHub renders a "Cite this repository" button from this file automatically).
 
-Once you publish a GitHub release, Zenodo (via the GitHub integration) will
-mint a DOI for it automatically, using the metadata in
-[`.zenodo.json`](.zenodo.json). Update the DOI badge at the top of this file
-once you have it.
+
 
 ## Bibliography
 
