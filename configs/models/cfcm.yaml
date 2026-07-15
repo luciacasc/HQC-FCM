@@ -1,0 +1,29 @@
+experiment:
+  name: cfcm_motivated
+  save_dir: results/cfcm_motivated
+  seed: 42
+
+data:
+  train_csv: data/generated/train_motivated.csv
+  test_csv: data/generated/test_motivated.csv
+  n_train: 100
+  n_test: 30
+
+model:
+  model_type: cfcm
+  n_concepts: 3
+  use_bias: true
+
+training:
+  lr: 0.005
+  n_epochs: 300
+  batch_size: 8
+  patience: 75
+  lambda_l1: 1.0e-4
+
+verbose: true
+
+W_true:
+  - [0.0, 0.0, 0.0]
+  - [0.6, 0.0, 0.0]
+  - [-0.4, 0.5, 0.0]

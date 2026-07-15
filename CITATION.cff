@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "HQC-FCM: Hybrid Quantum-Classical Fuzzy Cognitive Maps"
+type: software
+authors:
+  - family-names: Cascino
+    given-names: Lucia
+    orcid: "https://orcid.org/0009-0001-2986-6209"
+version: 0.1.0
+date-released: "2026-07-14"
+url: "https://github.com/luciacasc/HQC-FCM"
+repository-code: "https://github.com/luciacasc/HQC-FCM"
+license: GPL-3.0-or-later
+keywords:
+  - fuzzy cognitive maps
+  - quantum machine learning
+  - hybrid quantum-classical models
+  - data re-uploading

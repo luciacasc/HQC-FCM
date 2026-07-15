@@ -1,0 +1,33 @@
+experiment:
+  name: smoketest
+  save_dir: results/qfcm_motivated
+  seed: 42
+
+data:
+  train_csv: data/generated/train_motivated.csv
+  test_csv: data/generated/test_motivated.csv
+  n_train: 20
+  n_test: 5
+
+model:
+  model_type: qfcm
+  n_concepts: 3
+  n_layers: 3
+
+
+
+training:
+  lr: 0.005
+  n_epochs: 3
+  batch_size: 4
+  patience: 2
+  lambda_l1: 1.0e-4
+  grid_points: 20
+
+
+verbose: true
+
+W_true:
+  - [0.0, 0.0, 0.0]
+  - [0.6, 0.0, 0.0]
+  - [-0.4, 0.5, 0.0]

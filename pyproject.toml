@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hqc-fcm"
+version = "0.1.0"
+description = "Hybrid Quantum-Classical Fuzzy Cognitive Maps: a benchmark comparing QFCM, classical FCM, and MLP models."
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Lucia Cascino" }
+]
+keywords = [
+  "fuzzy-cognitive-maps",
+  "quantum-machine-learning",
+  "hybrid-quantum-classical",
+  "pennylane",
+  "pytorch",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "pyyaml",
+  "torch",
+  "matplotlib",
+  "pennylane",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/luciacasc/HQC-FCM"
+Issues = "https://github.com/luciacasc/HQC-FCM/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+hqcfcm-generate-dataset = "hqcfcm.data_generation.generate_dataset:main"
+hqcfcm-train = "hqcfcm.main:main"

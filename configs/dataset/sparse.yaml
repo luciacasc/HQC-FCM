@@ -1,0 +1,18 @@
+dataset:
+  name: sparse
+  output_dir: data/generated
+
+  n_concepts: 3
+  m_scenarios: 50
+  t_max: 300
+  conv_thr: 1.0e-4
+  noise_std: 0.03
+  master_seed: 42
+  test_fraction: 0.2
+
+  matrix:
+    type: random
+    sparsity: 0.4
+    min_rho: 0.5
+    max_rho: 1.0
+    seed_offset: 7

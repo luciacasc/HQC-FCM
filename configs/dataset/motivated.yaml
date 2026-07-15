@@ -1,0 +1,18 @@
+dataset:
+  name: motivated
+  output_dir: data/generated
+
+  n_concepts: 3
+  m_scenarios: 50
+  t_max: 300
+  conv_thr: 1.0e-4
+  noise_std: 0.03
+  master_seed: 42
+  test_fraction: 0.2
+
+  matrix:
+    type: custom
+    values:
+      - [0.0, 0.0, 0.0]
+      - [0.6, 0.0, 0.0]
+      - [-0.4, 0.5, 0.0]

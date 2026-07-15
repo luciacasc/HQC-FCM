@@ -1,0 +1,36 @@
+experiment:
+  name: qfcm_motivated
+  save_dir: results/qfcm_motivated
+  seed: 42
+
+data:
+  train_csv: data/generated/train_motivated.csv
+  test_csv: data/generated/test_motivated.csv
+  n_train: 100
+  n_test: 30
+
+model:
+  model_type: qfcm
+  n_concepts: 3
+  n_layers: 3
+  lambda_l1: 1.0e-4
+  diff_method: best
+  entanglement: ring_cz
+
+
+
+training:
+  lr: 0.005
+  n_epochs: 300
+  batch_size: 8
+  patience: 75
+  lambda_l1: 1.0e-4
+  grid_points: 20
+
+
+verbose: true
+
+W_true:
+  - [0.0, 0.0, 0.0]
+  - [0.6, 0.0, 0.0]
+  - [-0.4, 0.5, 0.0]

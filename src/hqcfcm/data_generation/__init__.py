@@ -1,0 +1,1 @@
+"""Synthetic FCM dataset generation."""
