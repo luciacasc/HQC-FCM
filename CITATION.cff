@@ -11,6 +11,7 @@ date-released: "2026-07-14"
 url: "https://github.com/luciacasc/HQC-FCM"
 repository-code: "https://github.com/luciacasc/HQC-FCM"
 license: GPL-3.0-or-later
+doi: 10.5281/zenodo.21381059
 keywords:
   - fuzzy cognitive maps
   - quantum machine learning
