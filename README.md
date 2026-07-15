@@ -3,7 +3,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Tests](https://github.com/luciacasc/HQC-FCM/actions/workflows/tests.yml/badge.svg)](https://github.com/luciacasc/HQC-FCM/actions/workflows/tests.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/1301660759.svg)](https://doi.org/10.5281/zenodo.21381058)
 
 A benchmark framework for **Hybrid Quantum-Classical Fuzzy Cognitive Maps
 (HQC-FCM)** against classical Fuzzy Cognitive Maps and an MLP baseline, on
