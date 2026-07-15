@@ -9,8 +9,7 @@ A benchmark framework for **Hybrid Quantum-Classical Fuzzy Cognitive Maps
 (HQC-FCM)** against classical Fuzzy Cognitive Maps and an MLP baseline, on
 synthetic FCM-style time-series data.
 
-> **Note:** replace the DOI badge above with your real Zenodo DOI after your
-> first GitHub release (see [Citing this work](#citing-this-work)).
+
 
 ## What this is
 
